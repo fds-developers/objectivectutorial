@@ -10,7 +10,10 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"Hello, World!\nand another one, Hello, World!");
+        
+        int sum = 50+26;
+        NSLog(@"sum is %i", sum);
     }
     
     return 0;
